@@ -15,7 +15,10 @@
     outline: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: 0.2s linear;
+    transition: 0.s linear;
+    cursor: url(
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='31' fill='none' viewBox='0 0 26 31'%3E%3Cpath fill='%23fff' fill-rule='evenodd' stroke='%23010101' stroke-linecap='square' stroke-width='2.5' d='M21.993 14.425 2.549 2.935l4.444 23.108 4.653-10.002 10.347-1.616Z' clip-rule='evenodd'/%3E%3C/svg%3E"
+      ),auto;
 }
 
 html {
@@ -26,7 +29,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 0.8rem;
+    width: 1rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -94,7 +97,7 @@ section {
 }
 
 .header .logo img:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 .header .navbar a {
